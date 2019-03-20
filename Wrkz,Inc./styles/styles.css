@@ -1,0 +1,143 @@
+  .clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.site-header{
+  background: white;
+  padding: 5px 5%;
+  margin: 32px
+}
+
+.site-header h1{
+font-family: 'Pacifico', cursive;
+font-size: 40px;
+color: #1a1a1a;
+text-shadow: 1px 3px #FFE888;
+margin: 0;
+float: left;
+}
+
+.main-nav{
+float: right;
+}
+
+.main-nav ul{
+  padding: 8px 5%;
+  margin: 0;
+list-style: none;
+}
+
+.main-nav ul li{
+display: inline;
+}
+
+.main-nav ul li a{
+text-decoration: none;
+font-family: 'Fira Sans', sans-serif;
+font-size: 16px;
+color: #474747;
+font-weight: 500;
+}
+
+.mission-statement{
+background: White;
+text-align: center;
+margin: 84px auto;
+padding: 25px;
+}
+
+.mission-statement h2{
+font-family: 'Fira Sans', sans-serif;
+font-size: 50px;
+font-weight: 700;
+color: #1a1a1a;
+}
+
+.mission-statement p{
+font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+font-weight: 500;
+color: #474747;
+}
+.venture-wrapper{
+  width: 90%;
+  margin: 0 auto;
+}
+.venturer{
+  background: white;
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+.venturer h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+.venturer h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+ .venturer p {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+   color: #1a1a1a;
+ }
+.image-map {
+  background: White;
+  float: right;
+  width: 10%;
+  margin: auto;
+  display: block;
+  padding: 0px 20%;
+  padding-top: 20px;
+}
+.venture-button{
+  margin-right: 0px;
+  width: 230px;
+  margin-top: 32px;
+  bottom: 32px;
+  top: 0px;
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #FCCC02;
+  border: 1px solid #FCCC02;
+  border-radius: 4px;
+  color: #1a1a1a;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  text-transform: inherit;
+  text-overflow: ellipsis;
+  user-select: none;
+  white-space: nowrap;
+  padding: 5px 9px;
+}
+
+.main-footer {
+  background: #FCCC02;
+  padding: 5px 5%;
+  margin: 35px;
+}
+.main-footer p {
+  color: #474747;
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+}
